@@ -7,9 +7,13 @@ public abstract class PluginCommand {
 
     public abstract @NonNull String getName();
 
-    public abstract @NonNull String getPermission();
+    public @NonNull String getPermission() {
+        return getName();
+    }
 
-    public abstract boolean isPlayerRequired();
+    public boolean isPlayerRequired() {
+        return false;
+    }
 
     public @NonNull String getUsage() {
         return "";
