@@ -49,7 +49,7 @@
                 <version>3.0.0-M2</version>
                 <configuration>
                     <altDeploymentRepository>
-                        internal.repo::default::file://${project.build.directory}/mvn-artifact
+                        internal.repo::default::file://${project.build.directory}
                     </altDeploymentRepository>
                 </configuration>
             </plugin>
